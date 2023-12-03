@@ -1,0 +1,92 @@
+.ask-iten {
+  border: 2px solid #fe9b04;
+  border-radius: 17px;
+  padding: 0 16px;
+
+  margin-bottom: 16px;
+}
+.ask-iten .panel {
+  background: transparent;
+}
+.ask-iten .panel p {
+  color: #754e1c;
+  font-size: 12px;
+  margin-top: 0px;
+  font-family: "Inknut Antiqua", serif;
+}
+.accordion h2 {
+  display: flex;
+  width: 100%;
+}
+.open-trigger {
+  width: 42px;
+  height: 35px;
+  color: transparent;
+  background-color: transparent;
+  background-image: url("../img/opentrigger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: 0.4s;
+}
+.accordion {
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inknut Antiqua", serif;
+  line-height: 1.3;
+  background: -webkit-linear-gradient(#fe9b04, #f6b60f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.4s;
+  align-items: center;
+  gap: 16px;
+}
+
+.accordion.active span {
+  transform: rotate(180deg);
+  transition: 0.4s;
+}
+.accordion.active + .panel {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top: 1px solid #fe9b04;
+}
+
+.active,
+.accordion:hover {
+  background-color: transparent;
+}
+
+.panel {
+  padding: 0 18px;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+/* ////////////////////////////////   ask-answers */
+.ask-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.ask-answers {
+  display: flex;
+  background-color: #fff;
+  background-image: url("../img/bg_s6.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 72px;
+  padding-top: 30px;
+  padding-left: 24px;
+  padding-right: 24px;
+}

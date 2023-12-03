@@ -1,0 +1,202 @@
+@media (max-width: 1000px) {
+  .head-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 550px;
+    justify-items: center;
+    padding-top: 83px;
+    .img-logo {
+      margin: 0 auto;
+    }
+  }
+  .head-info h1 {
+    text-align: center;
+    max-width: 400px;
+    font-size: 20px;
+  }
+
+  .head-info h3 {
+    text-align: center;
+    max-width: 400px;
+    font-size: 16px;
+  }
+  .area-steps h3 {
+    font-size: 14px;
+  }
+  .magic-info {
+    grid-template-columns: 1fr;
+    .img-roda {
+      height: 400px;
+      display: flex;
+      /* scale: 0.5; */
+      object-fit: cover;
+    }
+  }
+  .section-magic {
+    padding-bottom: 72px;
+  }
+  .info-text {
+    max-width: 600px;
+  }
+  .info-text h3 {
+    text-align: left;
+  }
+  .lista-gold {
+    grid-template-columns: repeat(2, 235px);
+    .gold-iten {
+      padding: 0px;
+    }
+    .gold-iten-data {
+      width: calc(100% - 12px);
+      margin: 0 auto;
+    }
+    .gold-iten-data::before {
+      width: calc(100% - 1px);
+    }
+  }
+  .dara-bio {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    .dara-info {
+      grid-row: 1;
+      padding-top: 80px;
+    }
+    .img-dara-content {
+      grid-row: 2;
+    }
+  }
+}
+@media (max-width: 850px) {
+  .lista-steps {
+    grid-template-columns: repeat(2, 180px);
+  }
+  .head-info h1 {
+    text-align: center;
+    max-width: 400px;
+    font-size: 16px;
+  }
+  .head-info h3 {
+    text-align: center;
+    max-width: 400px;
+    font-size: 14px;
+  }
+  .price-content {
+    grid-template-columns: 1fr;
+    max-width: 250px;
+  }
+  .dara-info h4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+}
+@media (max-width: 700px) {
+  .logo-top {
+    display: flex;
+    .img-logo {
+      width: 100%;
+    }
+  }
+  .section-price {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .price-content {
+    display: flex;
+    flex-direction: column;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0px;
+  }
+  .lista-gold {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 8px;
+  }
+  .gold-info {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .gold-iten-data {
+    width: 100% !important;
+  }
+  .gold-iten-data p {
+    font-size: 10px;
+  }
+  .gold-info-bottom h5 {
+    font-size: 12px;
+  }
+  .lista-steps {
+    grid-template-columns: repeat(2, 180px);
+  }
+  .steps-iten p {
+    font-size: 10px;
+  }
+  .head-info h1 {
+    text-align: center;
+    max-width: 400px;
+    font-size: 16px;
+  }
+  .dara-head {
+    width: 100%;
+    display: flex;
+    padding-left: 24px;
+    padding-right: 24px;
+    .img-dara-s1 {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  .head-info a {
+    font-size: 8px;
+    margin: 0 auto;
+  }
+  .lista-steps {
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 0px;
+    gap: 8px;
+  }
+
+  .dara-info h4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+  .info-text a {
+    font-size: 10px;
+    text-wrap: wrap;
+    display: flex;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center !important;
+    justify-content: center;
+  }
+  .price-card {
+    width: auto;
+  }
+  .link-price {
+    font-size: 10px;
+  }
+  .link-contact {
+    font-size: 10px;
+    margin: 0 auto;
+  }
+  .price-real span:first-child {
+    font-size: 18px;
+    padding-top: 8px;
+  }
+  .price-real span:last-child {
+    font-size: 18px;
+  }
+  .price-real span:nth-child(2) {
+    font-size: 40px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .accordion h2 {
+    font-size: 12px !important;
+    display: flex;
+    width: 100%;
+  }
+}
